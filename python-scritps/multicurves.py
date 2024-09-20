@@ -19,7 +19,7 @@ import pandas as pd
 import glob,os
 
 
-path=os.getcwd()
+path=r"E:\MD\MD参考\github\lammps-data-processing\examples\multicurves"
 file=glob.glob(os.path.join(path, "*.txt"))
 print(file)
 dl = []

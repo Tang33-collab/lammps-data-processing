@@ -17,7 +17,7 @@ import glob,os
 
   
 
-path=os.getcwd()
+path=r"E:\MD\MD参考\github\lammps-data-processing\examples\contour"
 file=glob.glob(os.path.join(path, "*.temp"))#read all *.temp files
 file.sort()#sort the file
 print(file)

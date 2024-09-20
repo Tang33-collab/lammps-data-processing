@@ -34,7 +34,7 @@ import scipy.interpolate
 # =============================================================================
 # 获得数据文件列表
 # =============================================================================
-target_dir = input("=" * 60 + '\n' + '>>> 请输入数据文件(.profile)的所在目录 <target_dir> : ')
+target_dir = input("=" * 60 + '\n' + 'E:\MD\MD参考\github\lammps-data-processing\examples\ave_chunk_temp_velocity')
 # 切换工作目录
 os.chdir(target_dir)
 
@@ -55,7 +55,7 @@ if not dir_list:
     sys.exit()
 
 # print("根据👆👆👆👆👆👆👆文件夹列表，选择目标数据所在的文件夹！", end="")
-selected_dir_index = int(input('>>> 请输入需要处理的文件夹序号 <selected_index> : '))
+selected_dir_index = int(input('E:\MD\MD参考\github\lammps-data-processing\examples\ave_chunk_temp_velocity'))
 
 # 定义标记
 temp_cloud_flag = False
